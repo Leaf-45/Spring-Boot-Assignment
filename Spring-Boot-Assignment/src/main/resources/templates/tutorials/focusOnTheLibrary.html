@@ -1,0 +1,14 @@
+<!DOCTYPE html>
+<html lang="en" xmlns:th="http://thymeleaf.org">
+<head th:replace="fragments/fragmentHeader :: headSection(pageTitle='Focusing on the library')">
+<body>
+<div th:insert="fragments/fragmentHeader :: fragmentHeader"></div>
+<h2>Focus on your current library</h2>
+<img th:src="@{/img/pexels-jens-mahnke-776092.jpg}">
+<p>This tip is about not introducing new games into your library unless it is deemed a must-play.
+Every game that is introduced into the library makes the task of completing the gaming library that much more daunting.
+This is why it is important to focus on playing the games are currently in your library instead of browsing for games
+to add to it</p>
+<div th:insert="fragments/fragmentFooter :: fragmentFooter"></div>
+</body>
+</html>

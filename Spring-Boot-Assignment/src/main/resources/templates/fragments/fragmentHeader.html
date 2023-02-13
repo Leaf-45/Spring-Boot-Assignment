@@ -1,0 +1,17 @@
+<!DOCTYPE html>
+<html lang="en" xmlns:th="http://thymeleaf.org">
+<head th:fragment="headSection(pageTitle)">
+    <meta charset="UTF-8">
+    <link rel="stylesheet" type="text/css" th:href="@{style.css}">
+    <title th:text="${pageTitle}"></title>
+</head>
+<body>
+<ul th:fragment="fragmentHeader">
+    <li><a th:href="@{/}">Home</a></li>
+    <li><a th:href="@{/Library}">Focus on your library</a></li>
+    <li><a th:href="@{/Variety}">Having variety with the games you play</a></li>
+    <li><a th:href="@{/Backlog}">Accepting the gaming backlog</a></li>
+    <li><a th:href="@{/Sources}">Sources</a></li>
+</ul>
+</body>
+</html>

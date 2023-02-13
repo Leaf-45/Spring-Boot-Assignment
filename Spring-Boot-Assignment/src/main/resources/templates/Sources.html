@@ -1,0 +1,18 @@
+<!DOCTYPE html>
+<html lang="en" xmlns:th="http://thymeleaf.org">
+<head th:replace="fragments/fragmentHeader :: headSection(pageTitle='Sources')">
+<body>
+<div th:insert="fragments/fragmentHeader :: fragmentHeader"></div>
+<h1>Sources</h1>
+<p>All images can be found on https://www.pexels.com</p>
+<h3>Image by Kevin Bidwell</h3>
+<img th:src="@{/img/pexels-kevin-bidwell-1373100.jpg}">
+<h3>Image by Emre Can Acer</h3>
+<img th:src="@{/img/pexels-emre-can-acer-2079451.jpg}">
+<h3>Image by Jens Mahnke</h3>
+<img th:src="@{/img/pexels-jens-mahnke-776092.jpg}">
+<h3>Image by Anthony</h3>
+<img th:src="@{/img/pexels-anthony-)-139038.jpg}">
+<div th:insert="fragments/fragmentFooter :: fragmentFooter"></div>
+</body>
+</html>
